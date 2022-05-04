@@ -85,7 +85,7 @@ def _forward_results(ti):
 # DAG definition
 
 with DAG(
-    'spaicer_demo_dag',
+    'spaicer_demo_dag_test',
     start_date=datetime(2022, 1, 3),
     schedule_interval='@daily',
     catchup=False
